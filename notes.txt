@@ -1,0 +1,111 @@
+//Find the sum of minimum numbers
+//([[1,2,3],[4,5,6],[7,8,9]])
+//1,2,3 = 6
+
+//Find the sum of all numbers
+//([[1,2,3],[4,5,6],[7,8,9]])
+//1,2,3 = 6
+
+
+for (let i = 0; ; i++) {
+  console.log(i)
+  if(i >1)
+  break
+  }
+  
+  function sumMin(arr){
+      var sum = 0
+      for(let i = 0; i < arr.length; i++){
+          var y = arr[i][0]
+          for(let j = 0; j < arr[i].length; j++)
+          if(y > arr[i][j]) {
+              y = arr[i][j]
+          }
+          sum = sum + y
+      }
+      return sum
+  }
+  console.log(sumMin([[1,2,3],[4,5,6],[7,8,9]]))
+
+
+for (let i = 0; ; i++) {
+console.log(i)
+if(i >1)
+break
+}
+
+function sumMin(arr){
+    var sum = 0
+    for(let i = 0; i < arr.length; i++){
+        var y = arr[i][0]
+        for(let j = 0; j < arr[i].length; j++)
+        if(y > arr[i][j]) {
+            y = arr[i][j]
+        }
+        sum = sum + y
+    }
+    return sum
+}
+console.log(sumMin([[1,2,3],[4,5,6],[7,8,9]]))
+
+//Write a loop that sums the numbers from 0-9 and print the result
+
+//   console.log(i)
+// }
+
+// for (let i = 0; ; i++)
+//     console.log(i); break;
+
+
+// let x = 0
+// label : for (let i=0; i < 5; i++)
+// console.log("label" =i)
+//   inner: for (let j=0, j < 5; j++){
+//     console.log("inner =", j)
+//     x++; 
+//     console.log("inc of x =", x)
+//     if(i==2) break label
+//   }
+
+//     console.log("sum =", x)
+
+
+// let counter = 0;
+// function inc(){counter ++}
+//   for(let i = 0; i < 10 ; inc());
+
+//   console.log(counter)
+  
+// for(let i = 0; i < 3 ; i++) {
+//   for(let j=0; j < 3; j++) {
+//     console.log(i,j)
+//   }
+// }
+
+
+
+
+
+// for (let i = 0; i < 3; i ++) {
+//   if (i == 1) continue
+//   console.log(i)
+// }
+
+// for (let i = 0; ; i++)
+//     console.log(i); break;
+
+
+// let x = 0
+// label : for (let i=0; i < 5; i++)
+// console.log("label" =i)
+//   inner: for (let j=0, j < 5; j++){
+//     console.log("inner =", j)
+//     x++; 
+//     console.log("inc of x =", x)
+//     if(i==2) break label
+//   }
+
+
+//Find the sum of minimum numbers
+//([[1,2,3],[4,5,6],[7,8,9]])
+//1,2,3 = 6
