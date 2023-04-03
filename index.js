@@ -1,10 +1,15 @@
-//arr = [1,2,3,4,5,6,7,8,9] = 45 arr.length
-// Write a loop that sums the total of index numbers 0,1,2,3,4,5,6,7,8,9 and print the result
-let func = function() {}
-console.log(tpe of func)
-let sum = 0
-for(let i = 0; i < 10; i++) {
-  sum = sum + 1
+// create a function that takes an array with only numbers and returns the first element.
+
+// Array([1,2,3])
+
+let x=6
+console.log("Hello Class")
+function myArrayfunc(arr) {
+  return arr[1][3]
 }
 
-console.log(sum)
+if(x == 5) {
+  console.log("True")
+}
+
+console.log(myArrayfunc([["J"],[1,2,3,4,5,6,7]]))
