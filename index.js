@@ -1,15 +1,9 @@
-// create a function that takes an array with only numbers and returns the first element.
+//create a function that takes a number, increment the number by 1 and return the result
 
-// Array([1,2,3])
 
-let x=6
-console.log("Hello Class")
-function myArrayfunc(arr) {
-  return arr[1][3]
+function inc(x) {
+  return x+1
+
 }
 
-if(x == 5) {
-  console.log("True")
-}
-
-console.log(myArrayfunc([["J"],[1,2,3,4,5,6,7]]))
+console.log(inc(5))
