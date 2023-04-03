@@ -1,9 +1,9 @@
-//create a function that takes a number, increment the number by 1 and return the result
+// write a function that takes an int minutes and convert it to seconds
+
+// write a function that timeses a number by 60
 
 
-function inc(x) {
-  return x+1
-
+function convSec(min) {
+return (min * 60)
 }
-
-console.log(inc(5))
+console.log(convSec(5))
